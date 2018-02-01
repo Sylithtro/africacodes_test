@@ -9,8 +9,8 @@ class Users {
     }
 
     //Verify password
-    public static function fp_verify($code){
-        return verify($code, Users::hash($code));
+    public static function verify($code){
+        return password_verify($code, Users::hash($code));
     }
 
     //Sanitize string 
