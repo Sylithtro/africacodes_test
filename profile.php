@@ -213,7 +213,7 @@ Users::checkLog();
                                        <button class="btn btn-info" id="but1" style=" float: right; margin-left: 5px;"> View </button>
                                       
                                      <!-- <input type="submit"  id ="buttn" data-toggle="modal" class="finish btn btn-info" value="Submit"> --> 
-                                     <input type="submit" class="finish btn btn-danger" value="Cancel">
+				    <span class="finish btn btn-danger">Cancel </span>
                             </form>
                           </div>
                       </section>
